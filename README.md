@@ -34,3 +34,6 @@ docker run -p 5000:5000 flask-app
 ## Pipeline Output
 App verified via: `docker exec jenkins curl http://localhost:5000`
 Response: "CI/CD Pipeline Working! Deployed via Jenkins & Docker"
+
+<img width="780" height="116" alt="image" src="https://github.com/user-attachments/assets/7ad8f91b-dbd7-4b33-9c3d-e283798b40af" />
+
