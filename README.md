@@ -28,3 +28,9 @@ ci-cd-jenkins-docker/
 docker build -t flask-app .
 docker run -p 5000:5000 flask-app
 ```
+
+
+
+## Pipeline Output
+App verified via: `docker exec jenkins curl http://localhost:5000`
+Response: "CI/CD Pipeline Working! Deployed via Jenkins & Docker"
