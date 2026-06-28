@@ -1,2 +1,1 @@
-Name: requirements.txt
 flask==2.3.3
